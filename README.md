@@ -15,7 +15,7 @@ These files are a collection of matlab programs and scripts:
 	plotRESULTS.m		    - provides most of the figures contained in the paper and supplement (Figure 1 
 				                and Figure 2 and Figure S9 have not been created with matlab).
 
-All blank.mat-files and results.mat-files derived for this study using the above scripts are part of this repository. Note that licensed databases are missing from this work enviroment. This will require the user to find their own datasources to adapt the approach.
+All blank.mat-files derived for this study using the above scripts are part of this repository. Note that licensed databases are missing from this work enviroment. This will require the user to find their own datasources to adapt the approach.
 
 References: 
             
