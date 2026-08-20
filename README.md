@@ -2,12 +2,13 @@
 We present a Matlab-based functional enviroment, LTEnl that simulates risk-based largest tolerable earthquakes (LTE) as a base for red-light thresholds for use in defining traffic light protocols. This is a collection of codes applied in a study about defining risk-based, consistent traffic light systems for subsurface operations in the Netherlands [Muntendam-Bos & Schultz, 2026].  See also, prior works in developing this approach (as well as their GitHub repositories).
 
 These files are a collection of matlab programs and scripts: 
+	
 	scriptAdjustBLANK.m	- adjust the existing blank file from Schultz et al. (2022) containing specific 
-				                information for the Netherlands for the purpose of the analysis of the 					  
-                        subsurface operations contained in this study;
-	scriptRISK.m 	     	- creates the data structure containing the risk scenarios;
-	scriptMAP.m		      - derives the mean or median LTE values based on pre-defined tolerances for the 
-				                risk acceptance criteria;
+				        	information for the Netherlands for the purpose of the analysis of the 					  
+                        	subsurface operations contained in this study;
+	scriptRISK.m 	     - creates the data structure containing the risk scenarios;
+	scriptMAP.m		     - derives the mean or median LTE values based on pre-defined tolerances for the 
+				            risk acceptance criteria;
 	scriptMAPspecial.m	- maps the equivalent risks of the number of households exposed given the 
 				                mean/median LTE derived based on a chosen risk acceptance metric;
 	testRISKscenarios.m	- computes the impact for selected Dutch M>=3.0 earthquakes;
